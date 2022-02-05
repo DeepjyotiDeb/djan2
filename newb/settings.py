@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     
     'cloudinary',
     'cloudinary_storage',
+    
     'base.apps.BaseConfig',
 
     'rest_framework',
@@ -160,7 +161,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
     ]
 
-MEDIA_ROOT = BASE_DIR / 'static/images'
+# MEDIA_ROOT = BASE_DIR / 'static/images'
 
 # STATIC_ROOT =
 
